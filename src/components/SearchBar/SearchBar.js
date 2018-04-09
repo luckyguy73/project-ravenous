@@ -17,6 +17,7 @@ export class SearchBar extends Component {
       'Best Match': 'best_match',
       'Highest Rated': 'rating',
       'Most Reviewed': 'review_count',
+      'By Distance': 'distance'
     };
   }
 

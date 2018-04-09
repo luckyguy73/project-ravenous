@@ -46,7 +46,41 @@
   font-weight: 600;
 }
 
-.Business-reviews .rating {
-  font-size: .88rem;
-  line-height: 1rem;
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
 }
+
+a:link, a:visited {
+  color: #CCA353;
+}
+
+a:focus, a:hover {
+  border-bottom: 1px solid;
+  font-size: .97rem;
+  font-weight: 600;
+}
+
+a:active {
+  color: rgb(225, 238, 46);
+}
+
+a[href*="http"] {
+  background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+  background-size: 12px 12px;
+  background-position: right center;
+  padding-right: 19px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+a[href*="http"]:hover {
+  background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+  background-size: 16px 16px;
+  background-position: right center;
+  padding-right: 19px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
